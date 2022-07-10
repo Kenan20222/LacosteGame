@@ -427,7 +427,7 @@ bot.start(async (ctx) => {
         reply_markup:{
             inline_keyboard:[
                 [{text:'Botu Qrupa Əlavə Edin ✅', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 📣', url:`t.me/QarabagMmc`},{text:'Qruplar 💎', callback_data:'vip'}]
+                [{text:'Rəsmi Kanalımız 📣', url:`https://t.me/QarabagMmc`},{text:'Qruplar 💎', callback_data:'vip'}]
             ]
         }
     })
@@ -467,8 +467,8 @@ bot.action('AZ', ctx=>{
     ctx.replyWithMarkdown(`*🇦🇿 Qruplar*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup ', url:'t.me/LionKingdomGroup'}],
-                [{text:'2) Qrup ', url:'t.me/LionKingdomGroup'}],
+                [{text:'1) Qrup ', url:'https://t.me/LionKingdomGroup'}],
+                [{text:'2) Qrup ', url:'https://t.me/LionKingdomGroup'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -483,12 +483,12 @@ bot.action('TR', ctx=>{
        `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup', url:'t.me/LionKingdomGroup'}],
-                [{text:'2) Qrup', url:'t.me/QarabagMmc'}],
+                [{text:'1) Qrup', url:'https://t.me/LionKingdomGroup'}],
+                [{text:'2) Qrup', url:'https://t.me/QarabagMmc'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
-    })
+    
 })
 
 /// /// /// /// /// /// ///  <!-- BOT START MENÜ SON --> /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// 
